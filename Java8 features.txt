@@ -1,0 +1,37 @@
+Lambda expressions
+==================
+lambda calculus was introduced in 1930. It later influenced functional programming languages such as lisp which was the first language to use lambda expressions. 
+
+What is lambda expression
+-------------------------
+a lambda expression is a nameless function() anonymous function that has
+ no method name 
+no access specifier 
+no return type.
+
+
+functional interface (Single abstract method)
+---------------------------------------------
+A functional interface is an interface that contains one abstract method() SAM 
+
+example
+-------
+1. comparable interface ---> compareTo();
+2. Runnable interface ---> run();
+2. callable interface ---> call();
+
+@FunctionalInterface
+
+interface A{
+void wish();
+}   
+
+interface B extends A{
+public void greet();
+}
+
+=================================================
+FunctionalInterface vs Lambda Expression
+=================================================
+when ever a functional interface is used we can assign a lambda expression to its reference.
+
