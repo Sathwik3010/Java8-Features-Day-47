@@ -12,7 +12,7 @@ no return type.
 
 functional interface (Single abstract method)
 ---------------------------------------------
-A functional interface is an interface that contains one abstract method() SAM 
+A functional interface is an interface that contains one abstract method() SAM.
 
 example
 -------
@@ -34,4 +34,5 @@ public void greet();
 FunctionalInterface vs Lambda Expression
 =================================================
 when ever a functional interface is used we can assign a lambda expression to its reference.
+
 
